@@ -1,0 +1,43 @@
+.tovar-info{
+	color:;
+	font-weight: 500;
+	font-size: 18px;
+}
+.tovar-content img{
+	width: 100%;
+}
+.tovar-content{
+	margin:150px 0px;
+}
+.tovar-chena{
+	display: block;
+	margin:30px 0px;
+	font-size: 35px;
+	font-weight: 500;
+}
+.tovar-content p{
+	color:#26252d;
+	font-size: 40px;
+	font-weight: bold;
+}
+.tovar-info{
+	color:#696969;
+}
+.nalich{
+	margin:40px 0px;
+	color:green;
+	font-size: 21px;
+	display: block;
+}
+.tovar-btn{
+	background-color: #26252d;
+	border:none;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+@media(max-width: 991px){
+	.tovar-content{
+	margin:50px 0px;
+}
+}

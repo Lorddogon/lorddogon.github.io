@@ -1,0 +1,13 @@
+.container{
+	background: white;
+}
+.header{
+	margin-top:5rem;
+	color:#26252d;
+	margin-bottom: 2rem;
+}
+.content{
+	font-size:1.2rem;
+	color:#696969;
+}
+

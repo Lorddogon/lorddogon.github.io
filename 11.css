@@ -1,0 +1,271 @@
+li:hover
+ {
+ 	color:grey;
+ 	transition: all 1s ease;
+ }
+  #ph1 img:hover{
+	opacity:0.8;
+}
+ #ph2 img:hover{
+	opacity:0.8;
+}
+ #ph3 img:hover{
+	opacity:0.8;
+}
+body{  
+  background: #DCDCDC; 
+  font-family: sans-serif;
+
+}  
+.info {   
+color: white;   
+font:1em/1 sans-serif;   
+text-align: center; }  
+.info a{ 
+color: white; }  
+svg{
+ width: 100%;  
+ height: 120px;   
+ display: block;   
+ position: relative;   
+ overflow: hidden;    
+ margin: 0 auto;   
+ background: black; }
+ #cont{
+ 	background: white;
+ 	width: 80%;
+ 	margin-left:10%;
+    margin-top:-10px;
+    z-index: -10;
+ }
+ ul{
+ 	list-style-type: none;
+ 	display: flex;
+ 	padding: 5px;
+ }
+ li{
+ 	padding-left: 15px;
+ 	position:relative;
+ }
+ .menu
+ {
+ 	background: black;
+ 	color:white;
+ 	padding: 9px;
+ 	padding-bottom: 1px;
+ 	text-decoration: none;
+ 	font-size: 13px;
+ 	font-family:tahoma;
+ 	text-transform: uppercase;
+ }
+ span.m
+ {
+ 	margin-left: 10px;
+ 	border-right: 1px white solid;
+ 	padding: 5px 17px 5px 0px;
+ }
+ i{
+ 	margin-left: 5px;
+ }
+ .fa-book 
+ {
+ 	margin-left: 0px;
+ }
+ #shapka{
+ 	box-shadow: 0px 10px 15px -6px black;
+ }
+.fa-shopping-cart.fa-rub{
+	border:none;
+}
+#chena{
+	margin-left:2px;
+	margin-right:10px;
+}
+#t{
+	color:grey;
+	text-transform:lowercase;
+	font-size: 15px;
+}
+.rub{
+	margin-left: 200px;
+}
+.fa-shopping-cart
+{
+	margin-left:30px;
+}
+#mag{
+	font-size: 15px;
+}
+
+#rohaninfa {
+	 background:url(фотографии/rohan.jpg);
+	 background-size: 100%;
+	 width: 100%
+	 height:400px;
+	 margin-top:50px;
+	 padding: 10px 20px;
+	 margin-left: 5%;
+	 margin-right: 5%;
+}
+#rohaninfa iframe{
+	margin-left: 50%;
+}
+#rohaninfa p{
+	color:white;
+	margin-left:50%;
+	font-family: tahoma sans-serif;
+
+}
+#podval{
+	background-color: black;
+	height:80px;
+	width:98.1%;
+	margin-top:30px;
+	color:white;
+	font-family: tahoma sans-serif;
+	padding: 5px 0px 10px 20px;
+}
+#podval a{
+	border-right: 1px solid white;
+	padding:0px 10px;
+}
+#pho{
+	margin:50px 0% 100px 0%;
+	text-align: center;
+}
+
+#ph2{
+	margin-bottom:4%;
+}
+#ph2 , #ph1, #ph3{
+	width:250px;
+ 	overflow: hidden;
+ 	display:inline-block;
+}
+#ph1 img , #ph2 img , #ph3 img{
+	display:block;
+	margin-top:4px;
+}
+#tov{
+	margin-top: 50px;
+	margin-left:5%;
+	color: #26252d;
+	font-family: tahoma;
+}
+#tov img{
+ width:100%;
+ height:280px;
+ margin-top:30px;
+}
+#tov div{
+width: 180px;
+text-align: center;
+display: inline-block;
+margin-left:4%;
+}
+#tov button{
+	width:80%;
+	height:30px;
+	border:none;
+	background-color: #26252d;
+	color:white;
+	font-weight: bold;
+}
+.pp{
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+font-family: tahoma sans-serif;
+color:#26252d;
+margin-top:150px;
+}
+#pp{
+	margin-top:500px;
+}
+@media (max-width: 1199px){
+.menu
+ {
+ 	font-size: 12px;
+
+}
+#mag{
+	font-size: 12px;
+}
+#t{
+	color:grey;
+	text-transform:lowercase;
+	font-size: 12px;
+}
+.rub{
+	margin-left: 80px;
+}
+
+#rohaninfa {
+	 background:url(фотографии/rohan.jpg);
+	 background-size: 130%;
+	 width: 100%
+	 height:400px;
+	 margin-top:50px;
+	 padding: 10px 20px;
+	 margin-left: 5%;
+	 margin-right: 5%;
+}
+#rohaninfa iframe{
+	margin-left: 40%;
+}
+#rohaninfa p{
+	color:white;
+	margin-left:40%;
+	font-family: tahoma sans-serif;
+
+}
+iframe{
+	width: 60%
+}
+
+}
+@media(max-width: 991px){
+	.menu
+ {
+ 	font-size: 10px;
+
+}
+#mag{
+	font-size: 10px;
+}
+#t{
+	color:grey;
+	text-transform:lowercase;
+	font-size: 10px;
+}
+.rub{
+	margin-left: 10px;
+}
+}
+
+@media(max-width: 753px){
+	.menu
+ {
+ 	font-size: 8px;
+
+}
+#mag{
+	font-size: 8px;
+}
+#t{
+	color:grey;
+	text-transform:lowercase;
+	font-size: 8px;
+}
+.rub{
+	margin-left: 10px;
+}
+span.m
+ {
+ 	margin-left: 10px;
+ 	border-right: 0px white solid;
+ 	padding: 0px 5px 5px 0px;
+
+
+ }
+}

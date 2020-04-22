@@ -1,0 +1,50 @@
+<link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:300,100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/css.css">
+<span class="outline end-right">
+  TYGER
+</span>
+<span class="outline end-left">
+  TYGER
+</span>
+
+<span class="orbs">
+  <span>b</span>
+  <span>u</span>
+  <span>r</span>
+  <span>n</span>
+  <span>i</span>
+  <span>n</span>
+  <span>g</span>
+</span>
+
+<span class="glow">
+  BRIGHT
+</span>
+<script type="text/javascript">
+  var $orbs = $('.orbs span');
+$('.end-right').css('left' , '-10%');
+$('.end-left').css('left', '110%');
+$orbs.velocity({'top': '-300px', scaleX: '.2', scaleY: '.2', color: '#990000'},0);
+var orb = 0;
+var numOrbs = $orbs.length;
+
+$('.end-right').velocity({left : '50%'}, 'easeOutExpo', 1200);
+$('.end-left').velocity({left : '50%'}, 'easeOutExpo',  1200);
+
+
+dropOrbs = function(){
+  $orbs.eq(orb).velocity({top: '70px'}, 400).velocity({scaleX: 1, scaleY: 1, color: '#fff'}, 1000).css('position', 'relative');
+  orb = orb + 1;
+  if(orb < numOrbs){
+    setTimeout(dropOrbs, 100);
+  }
+  else{
+    setTimeout(function(){$('.glow').velocity({opacity: 1}, 1200);}, 1200);
+
+  }
+  
+}
+
+setTimeout(dropOrbs, 400);
+</script>
